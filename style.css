@@ -35,8 +35,8 @@ body {
 }
 #ddesc {
     padding-top: 40px;
-    padding-left: 20px;
-    grid-column: span 6;
+    padding-left: 350px;
+    grid-column: span 12;
 }
 @media (max-width: 991px) {
     #dpic {
@@ -203,6 +203,8 @@ hr {
     margin-right: 10px;
 }
 .pdesc {
+    display: flex;
+    flex-wrap: wrap;
 }
 .pend {
     clear: both;

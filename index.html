@@ -16,30 +16,67 @@
 </script>
   </head>
   <body>
+    <div class="container">
+      <div style="background-color: #eee;  padding: 5px 25px;">
+        <ul class="nodot">
+        <h1>Samuel Kabati</h1>
 
-    <!-- idea: have a javascript animated loss function converging in the header? :p -->
-    <div id="dhead" class="container">
-      <div class="row">
-        <div id="dpic">
-          <img src="assets/samuel-PhotoRoom.png" class="ppic" />
-        </div>
-        <div id="ddesc">
-          <h1>Samuel Kabati</h1>
-          <h2>I like to train deep neural nets on large datasets 🧠🤖💥</h2>
-          <div id="dico">
-            <a href="https://github.com/OswaldCc"><img src="assets/cgithub.svg" class="iico"/></a>
-            <a href="https://medium.com/@sam.kabati"><img src="assets/crss.svg" class="iico" /></a>
-            <img src="assets/cemail.svg" style="cursor: pointer;" class="iico" id="iemail" title="click to reveal" />
-          </div>
-          <div id="demail"></div> <!-- will reveal email -->
-        </div>
+      <div>
+      <p>I am a Python developer and data scientist. I am currently developing an open-source research assistant framework, designed 
+        to be extensible, allowing others to adapt it to various subjects they are passionate about. I am actively working on 
+        incorporating important features to enhance its functionality. Ultimately, the goal is to create open-source research
+        and education tools that provide quick and easy access to current and historical research, as well as educational 
+        materials.</p>
       </div>
-    </div>
-
+      <div id="dico">
+        <a href="https://github.com/kabatyy"><img src="assets/cgithub.svg" class="iico"/></a>
+        <img src="assets/cemail.svg" style="cursor: pointer;" class="iico" id="iemail" title="click to reveal" />
+      </div>
+      <div id="demail"></div> <!-- will reveal email -->
+      </div>
     <hr>
 
+
     <div id="history" class="container">
-      
+
+      <div class="entry row">
+        <div class="timespan">
+          2024(Jan)<br>Present
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="assets/snapCognition.jpg"/>
+        </div>
+        <div class="desc">
+          I started Snap Cognition, an open-source research and education tools company.
+          <ul>
+            <li>
+              Developed <a href="https://mlsanity.com">ML Sanity</a>, a tool for discovering and reviewing Machine 
+              Learning, Computer Vision, Computation and Language, Artificial Intelligence, Data Structures and Algorithms, Neural 
+              and Evolutionary Computing, Robotics, Multiagent Systems, and Systems and Control papers. ML Sanity serves daily papers.
+              You can add custom filters to the feed, and ML Sanity will use retrieval methods to serve relevant papers.
+            </li>
+            <li>
+              Designed and implemented features for paper tracking and historical searches using a combination of
+              criteria such as keyword, publication date, title, and tags enabling flexible exploration of current and
+              historical research.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+       <div class="entry row">
+        <div class="timespan">
+          2023 (Apr)<br>2023 (May)
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="assets/optica.webp" />
+        </div>
+        <div class="desc">
+          I was Data Analyst at <a href="https://optica.africa/"> Optica </a>.
+        </div>
+      </div>
 
       <div class="entry row">
         <div class="timespan">
@@ -95,86 +132,48 @@
     </div>
 
    
-    <div style="background-color: #eee; padding-top: 1px; margin-top: 50px; padding-bottom: 30px;">
+    <div style="background-color: #eee; padding-top: 1px; margin-top: 50px; padding-bottom: 15px;">
     <div class="container">
       
       <ul class="nodot">
-        <div class="ctitle">pet projects</div>
+        <div class="ctitle">Projects</div>
 
       <div class="project">
-        <div class="pico"><img src="assets/puppy.jpg" /></div>
-        <div class="pdesc"><a href="https://github.com/OswaldCc/kenzzy">Kenzzy</a> Kenzzy is a chatbot( with a bite :)) that utilizes OpenAI's language generation API to answer questions and have conversations. It can also generate creative writing prompts based on user input.</div>
-        <div class="pend"></div>
+        <div class="pdesc"><a href="https://github.com/kabatyy/AutoGrad">Autograd</a>
+           <p>Features an autograd engine. It implements backpropagation through dynamically 
+            constructed computational graphs (DAGs). It also includes various neural network implementations.</p> 
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="pdesc"><a href="https://mlsanity.com">ML Sanity</a>
+          <p>
+           ML Sanity is a tool for discovering and reviewing Machine Learning, Computer Vision, Computation and Language, AI, 
+           Data <br> Structures and Algorithms, Neural and Evolutionary Computing, Robotics, Multiagent Systems, and Systems and Control papers.
+          </p>
+          
+        </div>
       </div>
 
       <div class="project">
-        <div class="pico"><img src="assets/sleepy.jpg" /></div>
-        <div class="pdesc"><a href="https://github.com/OswaldCc/Driver-Drowsiness-Detection-In-Cars">Driver Drowsiness Detection. </a>The objective of this project was to build a drowsiness detection system that monitors the state of a driver's eyes and then issue an alert if drowsiness is detected.</div>
-        <div class="hassets" style="height:304px; margin: 20px 0 10px 0;">
+        <div class="pdesc"><a href="https://github.com/OswaldCc/Driver-Drowsiness-Detection-In-Cars">Driver Drowsiness Detection</a>
+          <p>
+            I used computer vision and deep learning to monitor a driver's face in real-time, detecting signs of 
+            drowsiness through eye <br> movements to trigger alerts and prevent accidents. 
+          </p>
+        </div>
+        <div class="hassets" style="height:304px; margin: 15px 0 10px 0;">
           <div class="hasset" style="top: 0; left: 0; width: 50%;">
             <video controls="" preload="metadata"  loop="" playsinline="" class="video" width="100%">
               <source src="assets/Final_Trim.mp4" type="video/mp4">
             </video>
           </div>
-    
         </div>
-        <div class="pend"></div>
       </div>
 
-      <div class="project">
-        <div class="pico"><img src="assets/dt.png" /></div>
-        <div class="pdesc"><a href="https://github.com/OswaldCc/clothingDetection">Clothing Detection (in progress)</a> This is a maskRCNN implementation for clothing detection on the Imaterialist dataset.</div>
-        <div class="pend"></div>
-      </div>
-
-      <div class="project">
-        <div class="pico"><img src="assets/download.png" /></div>
-        <div class="pdesc"><a href="https://github.com/OswaldCc/clothingDetection">Customer segmentation</a> In this project, the objective was to segment a portfolio of credit card users according to usage characteristics. Customer segmentation is then used by marketing department to tailor products and services specific to these customer segments.</div>
-        <div class="pend"></div>
-      </div>
-
-      <div class="project">
-        <div class="pico"><img src="assets/water.webp" /></div>
-        <div class="pdesc"><a href="https://github.com/OswaldCc/Tanzania-Water-Pump-Status-Prediction">Water Pump Status Prediction</a> The aim of this project (was part of a kaggle competition) was to be able to predict functional waterpoints, those that are functional and need repair and those that are completely non-functional. This would go a long way in trying to maintain the already existing water infrastructure to allow for better water access across the country improving people's quality of life in Tanzania. </div>
-        <div class="pend"></div>
-      </div>
-      
-      <div class="project">
-        <div class="pico"><img src="assets/forecast.png" /></div>
-        <div class="pdesc"><a href="https://github.com/OswaldCc/Time-Series-Modelling-Forecasting-Real-Estate-Prices">Time Series Modelling</a> This is a time series analysis on house prices on the Zillow dataset in various locations around the United States. </div>
-        <div class="pend"></div>
-      </div>
-
-        
     </div>
     </div>
 
-    <div id="pet-projects" class="container">
-      <div class="ctitle">featured writing</div>
-      <ul>
-        <li>Dec 2022 <a href="https://medium.com/@sam.kabati/my-experience-creating-an-intelligent-chatbot-kenzzy-with-openais-gpt-3-api-a364df2f71d3">My experience creating an Intelligent Chatbot(Kenzzy) with OpenAI’s GPT-3 API</a></li>
-        <li>Feb 2023 <a href="https://medium.com/@sam.kabati/you-wont-believe-how-human-like-openai-s-new-chatgpt-model-is-see-for-yourself-3ac7bd9a65a5">You won’t believe how human-like OpenAI’s new ChatGPT model is! See for yourself!</a></li>
-      </ul>
-    </div>
-
-    <div class="container">
-  
-      
-    </div>
-    <div style="background-color: #eee; padding-top: 1px; margin-top: 50px; padding-bottom: 30px;">
-      <div class="container">
-       
-        <ul style="padding-left: 10px;">
-          <div class="ctitle">misc </div>
-          <li>My <a href="https://medium.com/@sam.kabati">primary blog</a> and my <a href="">other blog coming soon :) </a></li>
-          <li>0 frameworks were used to make this simple responsive website because I am becoming seriously allergic to <a href="https://motherfuckingwebsite.com/">500-pound websites</a>. This one is pure HTML and CSS in two static files and that's it. </li>
-        </ul>
-          </div>
-          <div class="pend"></div>
-        </div>
-    <br><br><br><br><br><br><br><br><br><br><br>
-
-    <!-- attempt hiding from spambots :p -->
     <script type="text/javascript">
       var e_is_shown = false;
       document.getElementById('iemail').addEventListener("click", function(){
